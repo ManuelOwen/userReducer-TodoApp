@@ -2,7 +2,7 @@ import { useReducer, useState } from 'react';
 import TodoList from './TodoList';
 import TodoForm from './TodoForm';
 import { todoReducer } from './reducer';
-import {header} from "../images/bg-desktop-light.jpg"
+// import {header} from "../images/bg-desktop-light.jpg"
 import './Todoapp.scss';
 
 const initialTodos = [
@@ -52,7 +52,7 @@ const TodoApp = () => {
 
   return (
       <div 
-      img src={header} alt ="header"
+    //   img src={header} alt ="header"
       className={`todo-app ${darkMode ? 'dark-mode' : ''}`}>
         <div className='head'>
       <h1 className='title'>TODO</h1>
