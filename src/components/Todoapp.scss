@@ -1,0 +1,54 @@
+.todo-app {
+
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #bbced3;
+    border-radius: 15px;
+    box-shadow: 1 1 10px 1px aquamarine;
+    padding: 2rem;
+    transition: background 0.3s;
+    margin-bottom: 20px;
+  .head{
+    display: flex;
+    gap: 250px;
+
+   
+  }
+    &.dark-mode {
+      background: #333;
+      color: #fff;
+    }
+  
+    .title {
+      font-size: 2rem;
+      margin-bottom: 40px;
+    }
+  
+    .toggle-mode {
+      margin-bottom: 0.5rem;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+    // background-color: blue;
+    height: 50px;
+    border-radius: 7px;
+    border-bottom: 1px;
+    font-size: 20px;
+    }
+  
+    .filters {
+      margin-top: 1rem;
+      button {
+        margin: 0 0.5rem;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+      }
+    }
+    .dark{
+        background-color: #333;
+        color: black;
+    }
+  }
+  
